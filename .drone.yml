@@ -6,7 +6,7 @@ steps:
 - name: webhook
   image: 9384938/drone-plugin-testing:plugin
   settings:
-    url: google.com
+    url: facebook.com
     method: post
     body: |
       hello world
