@@ -3,7 +3,7 @@ type: docker
 name: default
 
 steps:
-- name: hello
+- name: webhook
   image: 9384938/drone-plugin-testing:plugin
   settings:
     url: google.com
