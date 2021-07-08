@@ -3,7 +3,7 @@ type: docker
 name: default
 
 steps:
-- name: webhook
+- name: testing_plugin
   image: 9384938/drone-plugin-testing:plugin
   settings:
     url: facebook.com
